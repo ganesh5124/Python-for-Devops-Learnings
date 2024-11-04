@@ -26,7 +26,7 @@ Accessing Items in a List
 * To Access a list we use [] brackets along with list name like this (mylist1[0])
 * Point to remember list always starts from zeroth index
 
-# my_list[0]  # 3 accessing zeroth item
+``` my_list[0]  # 3 accessing zeroth item ```
 # my_list[3]  # 5 item that is present in 3rd index
 
 # my_list[-1] # last item
