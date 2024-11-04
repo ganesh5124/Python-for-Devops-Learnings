@@ -19,9 +19,9 @@ Common List Operations
 
 # List Declaration
 
-# my_list1 = [3, 9, 4, 5, 10, 6]. # contains collection of numeric items
+"my_list1" = [3, 9, 4, 5, 10, 6]. # contains collection of numeric items
 
-# my_list2 = ["a", "b" , "c"] # string items
+'my_list2' = ["a", "b" , "c"] # string items
 
 Accessing Items in a List
 
@@ -30,9 +30,9 @@ Accessing Items in a List
 
 ` my_list[0]` # 3 accessing zeroth item
 
- `my_list[3]` # 5 item that is present in 3rd index
+`my_list[3]` # 5 item that is present in 3rd index
 
-# my_list[-1] # last item
+`my_list[-1]` # last item
 
 Slicing
 
