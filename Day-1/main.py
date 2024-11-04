@@ -9,20 +9,26 @@ mystring_list = ["a", "b" , "c"]
 # Contains collection mixed items
 mixed_list = ["a", 6 , "c", True, 4, False]  
 
-print(mixed_list[-1])
+# start Index
+print(my_list[-3:]) 
+print("dwwe", my_list[-3:-1]) # the end index should be negative value if you use negative value in start index
 
-print(my_list[1:4])
+# End Index
+print(my_list[:-4]) 
+print(my_list[:1])
 
+print("ssdsdd",my_list[::3])  # Output: [10, 40, 70]
 
+print(my_list[::-1])  # Output: [80, 70, 60, 50, 40, 30, 20, 10]
 
-
-
-
-
-
+#########
+# Using step 
+print(my_list[0:5:2])
+print(my_list[-5:-2: 2])
 
 
 # Functions
-# my_list.append(6)
-# print(my_list.count(6))
-# print(my_list)
+my_list.append(6)
+print(my_list.count(6))
+
+print(my_list)
