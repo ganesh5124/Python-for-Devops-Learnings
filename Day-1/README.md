@@ -56,7 +56,7 @@
 
 ##### Using step
 
-- `my_list[0:5:2]` # [3, 4, 10] start is 0 end is index 5 step is 2
+- ```my_list[0:5:2]``` # [3, 4, 10] start is 0 end is index 5 step is 2
 - `my_list[::3]` # Output: [10, 40, 70] - getting every 3rd element start index 1 end length of list step 3
 
 ##### To print a list in reverse order
