@@ -64,3 +64,10 @@
 - `my_list[::-1]` # Output: [80, 70, 60, 50, 40, 30, 20, 10]
 
 #### Built in Functions in Python
+append() used to add item to the list
+count(ele) used to count the number of time the ele is occoured
+remove(ele) used to remove the ele in the list
+
+pop() == used to remove at end index
+sort() == used to sort in asc or desc order
+extend(list2) to add list2 to list1 

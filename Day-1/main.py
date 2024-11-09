@@ -29,7 +29,7 @@ mixed_list = ["a", 6 , "c", True, 4, False]
 
 # Functions
 my_list.append(6)
-print(my_list.count(6))
+# print(my_list.count(6))
 my_list.insert(3,55)
 my_list[3]=33 # update 3rd index is 33
 
@@ -37,17 +37,24 @@ my_list.remove(9)
 my_list.pop()
 my_list.sort()
 # del my_list[2]
-print(my_list[:1])  
+# print(my_list[:1])  
 
 x = my_list.count(3)
-if(334 in my_list):
-    print("3334 is present in my list")
-else:
-    print("334 is not present in my list")
+# if(334 in my_list):
+#     print("3334 is present in my list")
+# else:
+#     print("334 is not present in my list")
 
 my_list2 = [5,6, 0, 44,88]
 
 my_list2.extend(my_list)
 my_list2.sort()
-print(my_list2)
+# print(my_list2)
 
+#  List Comprehension
+my_list3 = [2, 5, 9, 10, 22, 33]
+
+
+
+new_list = [ x for x in my_list3 if 2 in my_list3]
+print(new_list)
